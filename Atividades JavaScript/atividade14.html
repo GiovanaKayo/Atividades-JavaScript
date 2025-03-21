@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercico 14</title>
+</head>
+<body>
+    <h1>Idade de uma pessoa em anos, meses e dias, e o 
+    <br>calculo dos dias de vida ela tem.</h1>
+
+    <script>
+        var anos = Number(prompt("Digite sua idade em anos:"))
+        var meses = Number(prompt("Digite quantos meses se passaram desde seu último aniversário:"))
+        var dias = Number(prompt("Digite os dias além dos meses:"))
+
+        var total = (anos * 365) + (meses * 30) + dias
+
+        document.write("Você já viveu aproximadamente: " + total)
+    </script> 
+</body>
+</html>

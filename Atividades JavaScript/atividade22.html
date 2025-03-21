@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 22</title>
+</head>
+<body>
+
+    <h1>Receptor do salário de um funcionário e 
+        <br>exibição do valor do seu bônus.</h1>
+
+    <script>
+        let salario = Number(prompt("Informe seu salário: "))
+        var salarioA = salario + (salario * 0.1)
+        var salarioB = salario + (salario * 0.05)
+        
+
+        if(salario > 2000){
+        document.write("Seu salário com bônus é de R$" + salarioA)
+        } 
+        else {
+        document.write("Seu salário com bônus é de R$" + salarioB)
+        }
+    </script>
+    
+</body>
+</html>

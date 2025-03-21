@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 27</title>
+</head>
+<body>
+
+    <h1>Leitor da idade de uma pessoa, seu sexo e a exibição de uma 
+        <br>mensagem indicando se ela pode ou não se aposentar.</h1>
+
+    <script>
+        let idade = Number(prompt("Informe sua idade por gentileza: "))
+        let sexo = prompt("Informe seu sexo")
+
+        if(idade < 62 && sexo == "feminino" || idade < 65 && sexo == "masculino"){
+            document.write("Infelizmente você não poderá se aposentar :( )")
+        }else if (idade >= 62 && sexo == "feminino" || idade >= 65 && sexo == "masculino"){
+            document.write("Eba! Você pode se aposentar!")
+        }
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 33</title>
+</head>
+<body>
+    <h1>Leitor do nome e o turno de um aluno e exibição de
+        <br> uma mensagem de saudação de acordo com o turno.</h1>
+
+    <script>
+        var nome = prompt("Diga o seu nome");
+        var turno = prompt("Turno (M para Matutino ou V para Vespertino)").toUpperCase()//serve para determinar um número de caractare
+
+        if (turno === "M") {
+            document.write("Bom dia, " + nome);
+        } else if (turno === "V") {
+            document.write("Boa tarde, " + nome);
+        } else {
+            document.write("Turno inválido. Por favor, insira M para Matutino ou V para Vespertino.");
+        }
+    </script>
+</body>
+</html>
