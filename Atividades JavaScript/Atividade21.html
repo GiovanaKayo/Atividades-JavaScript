@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 21</title>
+</head>
+<body>
+
+    <h1>Leitor da idade de um grupo de pessoas e exibição de quantas 
+    <br>pessoas são menores de idade e quantas são maiores de idade.</h1>
+
+    <script>
+        let num1 = Number(prompt("Insira a idade: "))
+        let num2 = Number(prompt("Insira a idade: "))
+        let num3 = Number(prompt("Insira a idade: "))
+        let num4 = Number(prompt("Insira a idade: "))
+        let num5 = Number(prompt("Insira a idade: "))
+        let num6 = Number(prompt("Insira a idade: "))
+        let num7 = Number(prompt("Insira a idade: "))
+
+        let maior = 0
+        let menor = 0
+
+        num1 < 18 ? menor++ : maior++
+        num2 < 18 ? menor++ : maior++
+        num3 < 18 ? menor++ : maior++
+        num4 < 18 ? menor++ : maior++
+        num5 < 18 ? menor++ : maior++
+        num6 < 18 ? menor++ : maior++
+        num7 < 18 ? menor++ : maior++
+
+        
+
+        document.write(`Menores de idade: ${menor} <br> Maiores de idade: ${maior}`)
+        
+
+    </script>
+    
+</body>
+</html>

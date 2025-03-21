@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 23</title>
+</head>
+<body>
+
+    <h1>Leitor do nome de um mês e exibição da 
+        <br>quantidade de dias que ele possui.</h1>
+
+    <script>
+        let mes = prompt("Informe o mês que deseja: ").toLowerCase()//para converter o texto em letras minúsculas
+
+        //3 iguais significam q vai acontecer uma verificação se os dois elementos sao iguais
+        
+        if(mes === "janeiro" || mes === "março" || mes === "maio" || mes === "julho" || mes === "agosto" || mes === "outubro" || mes === "dezembro" ){
+            document.write("O mês tem 31 dias!")
+        }else if (mes === "fevereiro"){
+            document.write("O mês tem 28 dias!")
+        }else if (mes === "abril" || mes === "junho" || mes === "setembro" || mes === "novembro") {
+            document.write("O mês tem 30 dias!")
+        }else{
+            document.write("Este mês não foi reconhecido, tente novamente.")
+        }
+
+    </script>
+    
+</body>
+</html>

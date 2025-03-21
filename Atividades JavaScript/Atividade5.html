@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<body>
+
+
+    
+    
+
+    <h1>Valor do produto, quantodadade comprada e valor total pago com desconto</h1>
+
+    <script>
+        var preco = Number(prompt ("Entre com o preço: "))
+        var quantidade = Number(prompt ("Entre com a quantidade: "))
+        var valor = preco * quantidade
+
+        if (quantidade>10){
+            document.write(`O desconto é: ${valor - (valor / 100 * 10)} `)
+        }
+        else{
+            document.write("O valor é: " + valor )
+        }
+
+
+        
+         
+
+
+    </script>
+    
+</body>
+</html>
